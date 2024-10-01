@@ -37,6 +37,7 @@ const Work = () => {
             <motion.div variants={fadeIn("down", "tween", 2, 1.5)} className={css.line}></motion.div>
             <div><div className={css.circle} style={{background: "#286F6C"}}></div></div>
             <div><div className={css.circle} style={{background: "#F2704E"}}></div></div>
+            <div><div className={css.circle} style={{background: "#FE204f"}}></div></div>
             <div><div className={css.circle} style={{background: "#EEC048"}}></div></div>
           </motion.div>
 
