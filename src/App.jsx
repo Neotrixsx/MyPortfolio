@@ -1,8 +1,7 @@
-import Experties from './components/Experties/Experties'
+import Expertise from './components/Expertise/Expertise'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
-// import People from './components/People/People'
 import Portfolio from './components/Portfolio/Portfolio'
 import Work from './components/Work/Work'
 import "../src/styles/app.css";
@@ -12,10 +11,9 @@ const App = () => {
     <div className="bg-primary container">
       <Header/>
       <Hero/>
-      <Experties/>
+      <Expertise/>
       <Work/>
       <Portfolio/>
-      {/* <People/> */}
       <Footer/>
     </div>
   )

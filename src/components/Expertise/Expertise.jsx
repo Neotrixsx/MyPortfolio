@@ -1,12 +1,12 @@
 import React from 'react'
-import { projectExperience, WhatDoIHelp } from '../../utils/data'
-import css from './Experties.module.scss'
+import { projectExperience, WhatDoIHelp } from '../../utils/data.js'
+import css from './Expertise.module.scss'
 import {motion} from 'framer-motion'
 import {fadeIn, staggerContainer, textVariant} from '../../utils/motion.js'
-const Experties = () => {
+const Expertise = () => {
   return (
     <section className={css.wrapper}>
-        <a className="anchor" id="experties"></a>
+        <a className="anchor" id="expertise"></a>
         <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -58,4 +58,4 @@ const Experties = () => {
   )
 }
 
-export default Experties
+export default Expertise
