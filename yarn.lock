@@ -234,22 +234,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/is-prop-valid@npm:^0.8.2":
-  version: 0.8.8
-  resolution: "@emotion/is-prop-valid@npm:0.8.8"
-  dependencies:
-    "@emotion/memoize": 0.7.4
-  checksum: bb7ec6d48c572c540e24e47cc94fc2f8dec2d6a342ae97bc9c8b6388d9b8d283862672172a1bb62d335c02662afe6291e10c71e9b8642664a8b43416cdceffac
-  languageName: node
-  linkType: hard
-
-"@emotion/memoize@npm:0.7.4":
-  version: 0.7.4
-  resolution: "@emotion/memoize@npm:0.7.4"
-  checksum: 4e3920d4ec95995657a37beb43d3f4b7d89fed6caa2b173a4c04d10482d089d5c3ea50bbc96618d918b020f26ed6e9c4026bbd45433566576c1f7b056c3271dc
-  languageName: node
-  linkType: hard
-
 "@esbuild/aix-ppc64@npm:0.21.5":
   version: 0.21.5
   resolution: "@esbuild/aix-ppc64@npm:0.21.5"
@@ -457,7 +441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.11.0, @eslint/js@npm:^9.9.0":
+"@eslint/js@npm:9.11.0, @eslint/js@npm:^9.11.0":
   version: 9.11.0
   resolution: "@eslint/js@npm:9.11.0"
   checksum: 3e3a8945c7f97b29187f3a6b05c9bb1e3e373d75f94c16b7499565df7c343d5e5e0a14e177bb75c368c6022bb33aa3d17775386a5f39d9085f9f522862d4bd4a
@@ -547,71 +531,6 @@ __metadata:
     "@jridgewell/resolve-uri": ^3.1.0
     "@jridgewell/sourcemap-codec": ^1.4.14
   checksum: 9d3c40d225e139987b50c48988f8717a54a8c994d8a948ee42e1412e08988761d0754d7d10b803061cc3aebf35f92a5dbbab493bd0e1a9ef9e89a2130e83ba34
-  languageName: node
-  linkType: hard
-
-"@motionone/animation@npm:^10.18.0":
-  version: 10.18.0
-  resolution: "@motionone/animation@npm:10.18.0"
-  dependencies:
-    "@motionone/easing": ^10.18.0
-    "@motionone/types": ^10.17.1
-    "@motionone/utils": ^10.18.0
-    tslib: ^2.3.1
-  checksum: 841cb9f4843a89e5e4560b9f960f52cbe78afc86f87c769f71e9edb3aadd53fb87982b7e11914428f228b29fd580756be531369c2ffac06432550afa4e87d1c3
-  languageName: node
-  linkType: hard
-
-"@motionone/dom@npm:^10.15.3":
-  version: 10.18.0
-  resolution: "@motionone/dom@npm:10.18.0"
-  dependencies:
-    "@motionone/animation": ^10.18.0
-    "@motionone/generators": ^10.18.0
-    "@motionone/types": ^10.17.1
-    "@motionone/utils": ^10.18.0
-    hey-listen: ^1.0.8
-    tslib: ^2.3.1
-  checksum: b11f5366b05d1a93d7df0c91923f0339412e5eb65de2010b1d0484bcbb8027d352334722ce6b839f1be776585d849d1bcbee9d96b2445f6bb6e82301fe67bbeb
-  languageName: node
-  linkType: hard
-
-"@motionone/easing@npm:^10.18.0":
-  version: 10.18.0
-  resolution: "@motionone/easing@npm:10.18.0"
-  dependencies:
-    "@motionone/utils": ^10.18.0
-    tslib: ^2.3.1
-  checksum: 6bd37f7a9d5a88f868cc0ad6e47d2ba8d9fefd7da84fccfea7ed77ec08c2e6d1e42df88dda462665102a5cf03f748231a1a077de7054b5a8ccb0fbf36f61b1e7
-  languageName: node
-  linkType: hard
-
-"@motionone/generators@npm:^10.18.0":
-  version: 10.18.0
-  resolution: "@motionone/generators@npm:10.18.0"
-  dependencies:
-    "@motionone/types": ^10.17.1
-    "@motionone/utils": ^10.18.0
-    tslib: ^2.3.1
-  checksum: 51a0e075681697b11d0771998cac8c76a745f00141502f81adb953896992b7f49478965e4afe696bc83361afaae8d2f1057d71c25b21035fe67258ff73764f1c
-  languageName: node
-  linkType: hard
-
-"@motionone/types@npm:^10.17.1":
-  version: 10.17.1
-  resolution: "@motionone/types@npm:10.17.1"
-  checksum: 3fa74db64e371e61a7f7669d7d541d11c9a8dd871032d59c69041e3b2e07a67ad2ed8767cb9273bac90eed4e1f76efc1f14c8673c2e9a288f6070ee0fef64a25
-  languageName: node
-  linkType: hard
-
-"@motionone/utils@npm:^10.18.0":
-  version: 10.18.0
-  resolution: "@motionone/utils@npm:10.18.0"
-  dependencies:
-    "@motionone/types": ^10.17.1
-    hey-listen: ^1.0.8
-    tslib: ^2.3.1
-  checksum: a27f9afde693a0cbbbcb33962b12bbe40dd2cfa514b0732f3c7953c5ef4beed738e1e8172a2de89e3b9f74a253ef0a70d7f3efb730be97b77d7176a3ffacb67a
   languageName: node
   linkType: hard
 
@@ -847,7 +766,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.3.3":
+"@types/react@npm:*, @types/react@npm:^18.3.8":
   version: 18.3.8
   resolution: "@types/react@npm:18.3.8"
   dependencies:
@@ -1659,7 +1578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-refresh@npm:^0.4.9":
+"eslint-plugin-react-refresh@npm:^0.4.12":
   version: 0.4.12
   resolution: "eslint-plugin-react-refresh@npm:0.4.12"
   peerDependencies:
@@ -1668,7 +1587,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.35.0":
+"eslint-plugin-react@npm:^7.36.1":
   version: 7.36.1
   resolution: "eslint-plugin-react@npm:7.36.1"
   dependencies:
@@ -1720,7 +1639,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.9.0":
+"eslint@npm:^9.11.0":
   version: 9.11.0
   resolution: "eslint@npm:9.11.0"
   dependencies:
@@ -1904,21 +1823,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^8.0.2":
-  version: 8.5.5
-  resolution: "framer-motion@npm:8.5.5"
+"framer-motion@npm:^11.5.6":
+  version: 11.5.6
+  resolution: "framer-motion@npm:11.5.6"
   dependencies:
-    "@emotion/is-prop-valid": ^0.8.2
-    "@motionone/dom": ^10.15.3
-    hey-listen: ^1.0.8
     tslib: ^2.4.0
   peerDependencies:
+    "@emotion/is-prop-valid": "*"
     react: ^18.0.0
     react-dom: ^18.0.0
-  dependenciesMeta:
+  peerDependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: 25912b88eaa954d641f0b5f2b811badfb9ca0dbff659cb0dfdae79216ee917b0004d43b9eeb3f74144f4924cf63d8fbd1c93de519eadd8968b6344ed0d5d9d4c
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: b37bc0856e7c887ba8f7c656bda46a1b492a9c2a093e2ede4b98392292685550a1cb646a1ea2575c3c54d371d2af77c4c6b1b07ebe4e2facfdf4bf6e9de58ba4
   languageName: node
   linkType: hard
 
@@ -2147,13 +2068,6 @@ __metadata:
   dependencies:
     function-bind: ^1.1.2
   checksum: e8516f776a15149ca6c6ed2ae3110c417a00b62260e222590e54aa367cbcd6ed99122020b37b7fbdf05748df57b265e70095d7bf35a47660587619b15ffb93db
-  languageName: node
-  linkType: hard
-
-"hey-listen@npm:^1.0.8":
-  version: 1.0.8
-  resolution: "hey-listen@npm:1.0.8"
-  checksum: 6bad60b367688f5348e25e7ca3276a74b59ac5a09b0455e6ff8ab7d4a9e38cd2116c708a7dcd8a954d27253ce1d8717ec891d175723ea739885b828cf44e4072
   languageName: node
   linkType: hard
 
@@ -2824,22 +2738,22 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "myportfolio@workspace:."
   dependencies:
-    "@eslint/js": ^9.9.0
-    "@types/react": ^18.3.3
+    "@eslint/js": ^9.11.0
+    "@types/react": ^18.3.8
     "@types/react-dom": ^18.3.0
     "@vitejs/plugin-react": ^4.3.1
-    eslint: ^9.9.0
-    eslint-plugin-react: ^7.35.0
+    eslint: ^9.11.0
+    eslint-plugin-react: ^7.36.1
     eslint-plugin-react-hooks: ^5.1.0-rc.0
-    eslint-plugin-react-refresh: ^0.4.9
-    framer-motion: ^8.0.2
+    eslint-plugin-react-refresh: ^0.4.12
+    framer-motion: ^11.5.6
     globals: ^15.9.0
     react: ^18.3.1
     react-dom: ^18.3.1
-    react-icons: ^4.7.1
-    react-slick: ^0.29.0
-    sass: ^1.57.1
-    vite: ^5.4.1
+    react-icons: ^5.3.0
+    react-slick: ^0.30.2
+    sass: ^1.79.3
+    vite: ^5.4.7
   languageName: unknown
   linkType: soft
 
@@ -3145,12 +3059,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-icons@npm:^4.7.1":
-  version: 4.12.0
-  resolution: "react-icons@npm:4.12.0"
+"react-icons@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "react-icons@npm:5.3.0"
   peerDependencies:
     react: "*"
-  checksum: db82a141117edcd884ade4229f0294b2ce15d82f68e0533294db07765d6dce00b129cf504338ec7081ce364fe899b296cb7752554ea08665b1d6bad811134e79
+  checksum: 3aa5f50e05aafc6d31e0d995fe0d98560069aa88717b24ce8aaa082a7e7b20ca95e1e19d847ed6e52d658a5a30e15826af20d7554bf993a743edd55586db62e3
   languageName: node
   linkType: hard
 
@@ -3168,9 +3082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-slick@npm:^0.29.0":
-  version: 0.29.0
-  resolution: "react-slick@npm:0.29.0"
+"react-slick@npm:^0.30.2":
+  version: 0.30.2
+  resolution: "react-slick@npm:0.30.2"
   dependencies:
     classnames: ^2.2.5
     enquire.js: ^2.1.6
@@ -3180,7 +3094,7 @@ __metadata:
   peerDependencies:
     react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 67ce4981914da8a76c6efb4bc8ee7ab69e04c33bd4b3517419ab2165679a3c701dae781556149713fe2c542f84188b7ca101ea58883537be5c05756408f48c8b
+  checksum: 7d415c745ca7d9d19947a6ce62ab866757310fbaf0941b14479cf2779f8db8951b037ab6a357a2d013518dd50fd41080dac7e7949cb201b4c6431f13c6e8975f
   languageName: node
   linkType: hard
 
@@ -3383,7 +3297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.57.1":
+"sass@npm:^1.79.3":
   version: 1.79.3
   resolution: "sass@npm:1.79.3"
   dependencies:
@@ -3706,7 +3620,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.3.1, tslib@npm:^2.4.0":
+"tslib@npm:^2.4.0":
   version: 2.7.0
   resolution: "tslib@npm:2.7.0"
   checksum: 1606d5c89f88d466889def78653f3aab0f88692e80bb2066d090ca6112ae250ec1cfa9dbfaab0d17b60da15a4186e8ec4d893801c67896b277c17374e36e1d28
@@ -3827,7 +3741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.4.1":
+"vite@npm:^5.4.7":
   version: 5.4.7
   resolution: "vite@npm:5.4.7"
   dependencies:
