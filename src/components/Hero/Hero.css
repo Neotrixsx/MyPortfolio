@@ -1,54 +1,54 @@
-.wrapper {
+.heroWrapper {
     overflow: hidden;
 }
-.wrapper .container {
+.heroWrapper .heroContainer {
     position: relative;
     z-index: 1;
 }
-.wrapper .container .upperElements {
+.heroWrapper .heroContainer .upperElements {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 @media (max-width: 640px) {
-    .wrapper .container .upperElements {
+    .heroWrapper .heroContainer .upperElements {
         justify-content: center;
         text-align: center;
         gap: 2rem;
-    }
+   }
 }
-.wrapper .container .lowerElements {
+.heroWrapper .heroContainer .lowerElements {
     margin-top: 12rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 @media (max-width: 640px), (max-width: 768px) {
-    .wrapper .container .lowerElements {
+    .heroWrapper .heroContainer .lowerElements {
         margin-top: 4rem;
         gap: 2rem;
         justify-content: center;
-    }
+   }
 }
-.wrapper .container .lowerElements .experience {
+.heroWrapper .heroContainer .lowerElements .experience {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.wrapper .container .lowerElements .experience >:nth-child(2) {
+.heroWrapper .heroContainer .lowerElements .experience > :nth-child(2) {
     line-height: 25px;
 }
-.wrapper .container .lowerElements .certificate {
+.heroWrapper .heroContainer .lowerElements .certificate {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.wrapper .container .lowerElements .certificate img {
+.heroWrapper .heroContainer .lowerElements .certificate img {
     margin-bottom: 1rem;
     width: 3.5rem;
 }
-.wrapper .container .person {
+.heroWrapper .heroContainer .person {
     position: absolute;
     bottom: -2rem;
     margin: auto;
@@ -58,7 +58,7 @@
     left: 33%;
 }
 @media (max-width: 640px), (max-width: 768px) {
-    .wrapper .container .person {
+    .heroWrapper .heroContainer .person {
         position: relative;
         left: 0;
         background-size: 20rem;
@@ -66,25 +66,25 @@
         align-items: center;
         justify-content: center;
         background-position: bottom;
-    }
+   }
 }
-.wrapper .container .person img {
+.heroWrapper .heroContainer .person img {
     margin-bottom: -5px;
 }
 @media (max-width: 640px) {
-    .wrapper .container .person img {
+    .heroWrapper .heroContainer .person img {
         width: 23rem;
-    }
+   }
 }
-.wrapper .container .email {
+.heroWrapper .heroContainer .email {
     position: absolute;
     top: 50%;
     left: 0;
     color: orange;
 }
 @media (max-width: 640px) {
-    .wrapper .container .email {
+    .heroWrapper .heroContainer .email {
         position: relative;
         display: none;
-    }
+   }
 }
