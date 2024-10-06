@@ -1,6 +1,5 @@
-import React from "react";
 import { footerVariants, staggerChildren } from "../../utils/motion";
-import css from "./Footer.module.scss";
+import  "./Footer.css";
 import {motion} from 'framer-motion'
 const Footer = () => {
   return (
@@ -9,13 +8,13 @@ const Footer = () => {
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-    className={`paddings ${css.wrapper}`}>
+    className="paddings footerWrapper">
       
       
       <motion.div
       variants={footerVariants}
-      className={`innerWidth yPaddings flexCenter ${css.container}`}>
-        <div className={css.left}>
+      className="innerWidth yPaddings flexCenter footerContainer">
+        <div className="left">
           <span className="primaryText">
             Let&apos;s make something <br />
             amazing together.
@@ -25,12 +24,12 @@ const Footer = () => {
           </span>
         </div>
 
-        <div className={css.right}>
-          <div className={css.info}>
+        <div className="right">
+          <div className="info">
             <span className="secondaryText">Information</span>
             <p>Kolkata, WB, INDIA</p>
           </div>
-          <ul className={css.menu}>
+          <ul className="menu">
             <li>Services</li>
             <li>Works</li>
             <li>Notes</li>
