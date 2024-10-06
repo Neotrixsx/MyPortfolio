@@ -19,11 +19,11 @@ const Header = () => {
       variants={headerVariants}
       initial="hidden"
       whileInView="show"
-      className="bg-primary paddings wrapper"
+      className="bg-primary paddings headerWrapper"
       viewport={{ once: true, amount: 0.25 }}
       style={{ boxShadow: headerShadow }}
     >
-      <div className="innerWidth container flexCenter">
+      <div className="innerWidth headerContainer flexCenter">
         <div className="name">Suraj Gorai</div>
         <ul
           className="flexCenter menu"
